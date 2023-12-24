@@ -16,17 +16,19 @@ SELECT passenger_count, extract(year from tpep_pickup_datetime), round(trip_dist
 
 Проверка была осуществлена на 2-ух наборах данных.
 # tiny
-![image](https://github.com/AlexVenem/Lab3FinR/assets/130144087/ac213f57-c5aa-43bc-ae4f-f9db54a5f721)
-
+![image](https://github.com/AlexVenem/Lab3FinR/assets/130144087/2bda8c0b-1698-4490-aadf-003b98244360)
+![image](https://github.com/AlexVenem/Lab3FinR/assets/130144087/7e3806d7-2521-4e24-83c7-ae9af73cc1ff)
 # Big
-
-
+![image](https://github.com/AlexVenem/Lab3FinR/assets/130144087/0d99f8f7-7b20-4ce4-9d7b-96e8c378f517)
+![image](https://github.com/AlexVenem/Lab3FinR/assets/130144087/1075e7c3-3a53-4d8b-b14c-7a82ae6ea9c3)
 # Мнение о библиотеках
-Изучение этой темы встретило меня не очень дружелюбно. 
+Изучение этой темы встретило меня не очень дружелюбно. Однако по итогу я могу сказать, что результат оказался познавательным. DuckDB показала себя, как самая быстрая система (быстрее SQLite3, как и утверждают источники рекламирующие DuckDB). Psycopg2, Pandas показали себя лучше на большом наборе данных. Итоги SQLite и SQLAlchemy схожи из-за того, что последнее базируется на своём собрате.
+Каждая библиотека имеет свои плюсы и минусы, что в сумме даёт весьма хорошую базу для работы с наукой о данных. Python является, по моему мнению, лучшим из общеизвестных языков для работы с большими базами данных.
 
 
 
 
+А ещё изначально csv файлы были немного поломаны, колонка airport_fee была разделена на две колонки.
 
 
 
